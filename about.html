@@ -24,11 +24,13 @@
             color: darkred;
             background-color: floralwhite ;
             margin-left: 10px;
+            text-align: center;
 
 
         }
         .about-content p{
-          margin-left: 10px;
+          margin-left: 100px;
+
         }
         #achievements{
             background: #f5f5f5;
@@ -43,9 +45,15 @@
             margin-bottom: 20px;
             border-bottom: 2px solid #2563eb;
             display: inline-block;
+            margin-left: 470px;
+            text-align: center;
         }
         #achievements ul{
-            list-style: none;
+          list-style: disc;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
         }
         #achievements ul li{
             font-size: 18px;
@@ -53,6 +61,7 @@
             background: #f3f6ff;
             padding: 10px 15px;
             border-radius: 8px;
+            
         }
         #inspiration{
          padding: 40px;
@@ -69,10 +78,27 @@
         }
         .contacts h2{
           margin-left: 10px;
+          text-align: center;
         }
         .contacts p{
           margin-left: 10px;
+          text-align: center;
         }
+        .contacts a {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.contacts img {
+  display: block;
+  margin: 0 auto;
+}
+#inspiration h2{
+  margin-right: 500px;
+}
+.project{
+  text-align: center;
+}
 @media (max-width: 1024px) {
       .about h2 {
         font-size: 32px;
@@ -110,6 +136,7 @@
         font-size: 15px;
         padding: 10px;
       }
+
     }
 
     @media (max-width: 480px) {
@@ -185,7 +212,7 @@
              <section class="projects">
                 <h2>Projects</h2>
                 <div class="projects">
-                    <h1>Coming soon</h1>
+                    <h1 class="project">Coming soon</h1>
                 </div>
              </section>
             </section>
